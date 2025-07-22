@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EM Direct Ltd</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      background-color: #000;
+      padding: 1rem 2rem;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background-color: #000;
+      background-image: linear-gradient(45deg, #fcd53f 25%, transparent 25%), linear-gradient(-45deg, #fcd53f 25%, transparent 25%);
+      background-size: 50px 50px;
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .buttons a {
+      display: inline-block;
+      padding: 0.8rem 1.5rem;
+      margin: 0 0.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn-yellow {
+      background-color: #fcd53f;
+      color: #000;
+    }
+    .btn-outline {
+      border: 2px solid white;
+      color: white;
+    }
+    .services {
+      display: flex;
+      justify-content: space-around;
+      padding: 2rem;
+      background: #fff;
+    }
+    .service {
+      text-align: center;
+      flex: 1;
+      margin: 0 1rem;
+    }
+    .why-section {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem;
+      background-color: #fcd53f;
+    }
+    .why-text {
+      flex: 1;
+      padding-right: 2rem;
+    }
+    .callback-form {
+      flex: 1;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .callback-form input {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .callback-form button {
+      width: 100%;
+      background-color: #fcd53f;
+      padding: 0.75rem;
+      border: none;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .testimonial {
+      padding: 2rem;
+      font-style: italic;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    footer {
+      background: #f1f1f1;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>EM Direct Ltd</strong></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>Powering Smarter Business Decisions</h1>
+    <p>Your trusted commercial utility consultants for electricity, gas, and billing accuracy.</p>
+    <div class="buttons">
+      <a href="#" class="btn-yellow">Get a Quote</a>
+      <a href="#" class="btn-outline">Contact Us</a>
+    </div>
+  </section>
+  <section class="services">
+    <div class="service">
+      <h3>⚡ Electricity & Gas Procurement</h3>
+      <p>Securing competitive energy rates for your business</p>
+    </div>
+    <div class="service">
+      <h3>📄 Bill Reconciliation</h3>
+      <p>Ensuring you're only paying what you should</p>
+    </div>
+    <div class="service">
+      <h3>✔️ Supplier Comparison</h3>
+      <p>Comparing trusted UK suppliers to find the best deals</p>
+    </div>
+  </section>
+  <section class="why-section">
+    <div class="why-text">
+      <h2>Why EM Direct</h2>
+      <p>We work with all major UK suppliers, saving businesses money, time, and stress. As ISO certified consultants registered with the Energy Ombudsman, we are committed to transparency and excellence.</p>
+      <div style="margin-top: 1rem;">
+        <strong>🏠 All UK Suppliers | 🛡️ ISO | ⚖️ Energy Ombudsman</strong>
+      </div>
+    </div>
+    <div class="callback-form">
+      <h3>Request a Callback</h3>
+      <p>Want to speak to our expert consultants? Leave your details and we’ll be in touch shortly.</p>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="text" placeholder="Business Name (optional)">
+        <input type="text" placeholder="Address" required>
+        <input type="tel" placeholder="Contact Number" required>
+        <button type="submit">Request My Callback</button>
+      </form>
+    </div>
+  </section>
+  <section class="testimonial">
+    <p>“Excellent service – we saved thousands on our energy bills. Highly recommend EM Direct!”</p>
+  </section>
+  <footer>
+    &copy; 2025 EM Direct Ltd | ISO | Energy Ombudsman | All UK Suppliers
+  </footer>
+</body>
+</html>
